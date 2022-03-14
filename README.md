@@ -1,4 +1,7 @@
-# wk21bookSearchEngine
+# Book Search Engine 
+
+This is a MERN-style application that was given to us as a Restful API and we were tasked with refactoring the perfectly working starter code into a Graph QL style API. 
+The point/motivation behind the app itself is to allow a user to be able to search for any books found on google (using the google books search API) as per the User Story.
 
 ## User Story:
 
@@ -7,6 +10,23 @@ AS AN avid reader
 I WANT to search for new books to read
 SO THAT I can keep a list of books to purchase
 ```
+## How to use:
+
+- Signup by clicking on the button in the top right and then creating a profile
+- Login using the information that you provided
+- Search for any book using the search bar
+- Click on the book/link for more information
+- Save books to your My Books Collection
+
+## Technology Used
+
+- React
+- React Router
+- Apollo Server and Apollo Boost
+- MongoDB
+- GraphQL
+- Express
+- Node
 
 ## Task:
 
