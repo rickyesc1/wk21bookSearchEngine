@@ -21,24 +21,26 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
-    // set savedBooks to be an array of data that adheres to the bookSchema
+    
     savedBooks: [bookSchema],
   },
-  // set this to use virtual below
+  // above, making savedBooks be an arary saved in the bookSchema file. 
+  
   {
     toJSON: {
       virtuals: true,
     },
+  // setting the above to use a virtual
   }
 );
 
-// hash user password
+
 userSchema.pre('save', async function (next) {
   if (this.isNew || this.isModified('password')) {
     const saltRounds = 10;
     this.password = await bcrypt.hash(this.password, saltRounds);
   }
-
+  // use this function above to hash the user password
   next();
 });
 
