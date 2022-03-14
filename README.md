@@ -3,6 +3,9 @@
 This is a MERN-style application that was given to us as a Restful API and we were tasked with refactoring the perfectly working starter code into a Graph QL style API. 
 The point/motivation behind the app itself is to allow a user to be able to search for any books found on google (using the google books search API) as per the User Story.
 
+##
+Link to deployed application [https://salty-mesa-30136.herokuapp.com/]
+
 ## User Story:
 
 ```md
