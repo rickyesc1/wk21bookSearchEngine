@@ -1,6 +1,7 @@
 const { Schema, model } = require('mongoose');
 const bcrypt = require('bcrypt');
 
+// these are models i updated not schemas
 // import schema from Book.js
 const bookSchema = require('./Book');
 
