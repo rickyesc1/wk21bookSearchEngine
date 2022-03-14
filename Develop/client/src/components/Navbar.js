@@ -10,6 +10,7 @@ const AppNavbar = () => {
   // set modal display state
   const [showModal, setShowModal] = useState(false);
 
+  // insert code to return the html pages and navbar loading
   return (
     <>
       <Navbar bg='dark' variant='dark' expand='lg'>

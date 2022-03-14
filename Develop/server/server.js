@@ -15,7 +15,7 @@ const server = new ApolloServer({
   context: authMiddleware,
 });
 
-// readme ToDo: add middle
+// readme ToDo: add middleware authentication
 server.applyMiddleware({ app });
 
 
